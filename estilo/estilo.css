@@ -1,0 +1,155 @@
+.seccion1{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-block-end: 10px;
+    border-radius: 45px;
+}
+.botones{
+    background-color: skyblue;
+    padding: 10px;
+    color: white;
+    border: 10px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-top: 90px;
+    float: left;
+    cursor: pointer;
+}
+.menu{
+    float: right;
+    margin-right: 70px;
+    width: 50%;
+}
+/*Estilo Seccion2*/
+.banner{
+    width: 50%;
+}
+.banner1{
+    width: 50%;
+    height: 269px;
+    float: right;
+}
+.imagen{
+    width: 100%;
+    height: 500px;
+    margin-top: -3px;
+}
+/*estilo seccion 3*/
+.boton1{
+    background-color: skyblue;
+    color: white;
+    border: -1px;
+    padding: 10px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    align-content: center;
+    display: flex center;
+    cursor: pointer;
+}
+.boton2{
+    background-color: skyblue;
+    color: white;
+    border: -1px;
+    padding: 10px;
+    align-content: center;
+    display: flex center;
+    cursor: pointer;
+}
+.boton3{
+    background-color: skyblue;
+    color: white;
+    border: -1px;
+    padding: 10px;
+    align-content: center;
+    display: flex center;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    cursor: pointer;
+}
+/*estilo seccion4*/
+.footer{
+    width: 100%;
+    height: 50px;
+    /*background-color: cadetblue;*/
+    display: flex;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: 280px;
+    /*background-color: cadetblue;*/
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 100px;
+    height: 50px;
+    margin:10px;
+    padding: 5px;
+    text-align:center;
+}
+.card1{
+    width: 100px;
+    height: 50px;
+    margin:10px;
+    padding: 5px;
+    text-align: justify;
+}
+/*seccion5*/
+.footer-form{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.boton-form{
+    background-color: skyblue;
+    color: white;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 10px;
+    padding: 5px;
+    margin-block-end: 5px;
+    cursor: pointer;
+}
+.footer-fin{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    /*justify-content: center;*/
+    margin-top: 230px;
+}
+.conversor{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    width: 120px;
+    text-align:center;
+    font-size: 15px;
+}

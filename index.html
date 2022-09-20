@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <title>2do Examen</title>
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">-->
+</head>
+<body>
+    <div class="seccion1">
+        <div class="seccion-logo">
+            <img class="logo" src="images/logouab.png" alt="">
+            <div class="menu">
+                <button class="botones">Inicio</button>
+                <button class="botones">Quienes Somos</button>
+                <button class="botones">Servicios</button>
+                <button class="botones">Contacto</button>
+            </div>
+        </div>
+    </div>
+    <div class="seccion2">
+      <div class="seccion-banner">
+        <img class="banner" src="images/banner.jpg" alt="">
+        <img class="banner1" src="images/Profesionales.jpg" alt="">
+      </div>
+    </div> 
+    
+    <section>
+      <img class="imagen" src="images/universidadUAB.png" alt="">
+    </section>
+
+    <footer class="footer">
+        <button class="boton1">Maestrias</button>
+        <button class="boton2">Posgrados</button>
+        <button class="boton3">Ubicanos</button>
+      </footer>
+      
+
+    <footer>
+        <div class="card" style="width: 18rem;">
+            <img src="images/enfermeria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BIOQUIMICA</h5>
+              <p class="card-text">La Carrera de Enfermería, es una profesión que responde a las necesidades de la población. ejerciendo el liderazgo para
+                   brindar un cuidado holístico a las personas, familia y comunidad, sana o enferma, con miras de mantener
+                    o recuperar la salud del ser humano en todo los aspectos biológicos, psicológicos, sociales y espirituales.</p>
+              <a href="#" class="btn btn-primary">Ver Carrera</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/fisioterapia.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">FISIOTERAPIA</h5>
+              <p class="card-text">La carrera de fisioterapia y kinesiología es una carrera líder en el mercado.
+                 Brinda una formación académica de excelencia gracias a un selecto plantel docente de gran trayectoria
+                  profesional, calidad humana y altos valores.</p>
+              <a href="#" class="btn btn-primary">Ver Carrera</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/psicologia.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PSICOLOGIA</h5>
+              <p class="card-text">La Psicología es la profesión en la que se detectan, evalúan y proponen estrategias
+                 de prevención y solución a patologías de orden psicológico, mismas que son procedentes de la interacción
+                  entre individuos, grupos, instituciones y comunidades para el desarrollo del ser humano y la sociedad.</p>
+              <a href="#" class="btn btn-primary">Ver Carrera</a>
+            </div>
+          </div>
+    </footer>
+    <footer class="footer-form">
+      <div class="titulo">
+        <form>
+          <h1><center>Como Te Llamas</center></h1>
+          <input type="text" class="limpiarnombre" id="minombre" placeholder="Ingrese Nombre">
+          <button type="button" class="boton-form" onclick="nombre()">Iniciar Sesion</button>
+        </form>
+        <script>
+          function nombre(){
+            var nombre=document.getElementById('minombre').value;
+            document.getElementById('mostrarnombre').value=("Hola..."+ nombre + " " + "Bienvenido...");
+          if(nombre==""){
+            document.getElementById("minombre").focus();
+          }else{
+            console.log(nombre);
+            document.getElementById("minombre").value = "";
+          }
+          }
+          /*var getData = function(){
+            var nombre=document.getElementById("nombre").value;
+            //document.write("Hola"+" "+ nombre);
+            window.alert("Hola"+" "+ nombre);
+            //console.log(nombre);
+          }*/
+        </script>
+
+        <input type="text" id="mostrarnombre" placeholder="nombre" class="nombre"disabled>
+        <center>
+          <img class="logouab" src="images/logo.png">
+        </center>
+        
+      </div>
+    </footer>
+
+    <footer class="footer-fin">
+
+      <div class="card1" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">MISION</h5>
+          <p class="card-text">Somos una institución Adventista comprometida con la formación
+            integral de profesionales y el desarrollo de ciencia y tecnología, fundamentada en
+            la cosmovisión bíblica, para brindar un servicio de calidad a Dios y la Sociedad.</p>
+            <!--<h5 class="card-title">VISION</h5>
+            <p class="card-text">Ser una institución reconocida por la formación de profesionales
+              de excelencia, con principios y valores bíblicos, para una vida de servicio.</p>-->
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">CONTACTOS</h5>
+          <p class="card-text">
+            <img src="iconos/icons8-facebook.png" alt="UAB">Facebook
+          </p>
+          <p>
+            <img src="iconos/icons8-instagram.png" alt="UAB">Instagram
+          </p>
+          <p>
+            <img src="iconos/icons8-whatsapp.png" alt="">+591 72207549
+          </p>
+        </div>
+      </div>
+
+     
+      <footer>
+        <div class="card1" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Boliviano a Dolar</h5>
+            <input type="text" placeholder="Ingrese un monto"class="inputconver" id="boliviano"> <br>
+            <center><input type="button"  class="conversor" value="Convertir" onclick="convertirMoneda()">
+            <p>El monto en dolar es:</p><br>
+            <input	type="text" id="respbol" class="inputconver" disabled>
+          </div>
+          
+        </div>
+        <div class="card1" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Dolar a Boliviano</h5>
+            <input type="text" placeholder="Ingrese un monto"class="inputconver" id="dolar"> <br>
+            <center><input type="button"  class="conversor" value="Convertir" onclick="convertirMoneda()"></center>
+            <p>El monto en bolivianos es:</p><br>
+            <input	type="text" id="respdol" class="inputconver" disabled>
+          </div>
+        </div>
+      </footer>
+      
+        <script>
+          function convertirMoneda(){
+            var bol=Number(document.getElementById('boliviano').value); 
+            var dol=Number(document.getElementById('dolar').value);
+            
+            var conbol=bol/6.86;
+            var condol=dol*6.96;
+            
+            document.getElementById('respbol').value=conbol;
+            document.getElementById('respdol').value=condol;
+    
+          }
+        </script>
+      
+    </footer>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>-->
+</body>
+</html>
